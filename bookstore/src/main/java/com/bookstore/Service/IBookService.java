@@ -10,5 +10,4 @@ public interface IBookService {
 	public List<Book> getAllBooks();
 	public Book getBookById(Integer bookId);
 	public void deleteById(Integer bookId);
-	
 }

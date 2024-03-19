@@ -9,6 +9,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/a449187415.js" crossorigin="anonymous"></script>
 
 	<title>BookStore</title>
 </head>
@@ -53,6 +54,7 @@
 					<th scope="col">Genre</th>
 					<th scope="col">Action</th>
 					<th scope="col">Remove</th>
+					<th scope="col">Edit</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -65,7 +67,10 @@
 					<td><a class="btn btn-secondary btn-sm" th:href="@{/my_books/{id}(id=${b.bookId})}">Add to
 							mybooks</a></td>
 					<td><a style="color:red" th:href="@{/deleteBookList/{id}(id=${b.bookId})}"><i
-								class="fa-solid fa-trash"></i>Delete</a></td>
+								class="fa-solid fa-trash"></i></a>
+					</td>
+					<td><a style="color:blue" th:href="@{/editBookById/{id}(id=${b.bookId})}"><i
+								class="fa-solid fa-pen-to-square"></i></a></td>
 
 				</tr>
 			</tbody>

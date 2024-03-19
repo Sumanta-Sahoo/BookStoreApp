@@ -9,6 +9,8 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+				<script src="https://kit.fontawesome.com/a449187415.js" crossorigin="anonymous"></script>
+
 
 	<title>BookStore</title>
 </head>
@@ -61,7 +63,8 @@
 					<td th:text="${b.myBookAuthor}"></td>
 					<td th:text="${b.myBookGenre}"></td>
 					<td th:text="${b.myBookPrice}"></td>
-					<td><a style="color:red" th:href="@{/deleteMyList/{id}(id=${b.myBookId})}">Delete</a></td>
+					<td><a style="color:red" th:href="@{/deleteMyList/{id}(id=${b.myBookId})}"><i
+								class="fa-solid fa-trash"></i></a></td>
 				</tr>
 			</tbody>
 		</table>

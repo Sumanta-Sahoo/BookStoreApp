@@ -1,0 +1,13 @@
+package com.bookstore.Service;
+
+import java.util.List;
+
+import com.bookstore.Entity.Book;
+
+public interface IBookService {
+
+	public void save(Book book);
+	public List<Book> getAllBooks();
+	public Book getBookById(Integer bookId);
+	public void deleteById(Integer bookId);
+}
