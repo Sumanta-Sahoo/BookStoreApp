@@ -1,0 +1,30 @@
+package com.bookstore.Service;
+
+import java.util.List;
+
+import com.bookstore.Entity.MyBook;
+import com.bookstore.Repository.IMyBookRepositry;
+
+public class MyBookServiceImpl implements IMyBooksService {
+	
+	IMyBookRepositry myBookRepo = null;
+
+	@Override
+	public void saveMyBooks(MyBook myBook) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<MyBook> getAllMyBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteMyBookById(String myBookId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

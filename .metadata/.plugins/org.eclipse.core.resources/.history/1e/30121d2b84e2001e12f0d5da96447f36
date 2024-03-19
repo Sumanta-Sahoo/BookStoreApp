@@ -1,0 +1,7 @@
+package com.bookstore.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class BookRepositry implements JpaRepository<T, ID> {
+
+}

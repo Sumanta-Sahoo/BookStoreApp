@@ -1,0 +1,45 @@
+package com.bookstore.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.bookstore.Entity.Book;
+import com.bookstore.Service.BookServiceImpl;
+
+@Controller
+public class BookController {
+	
+	@Autowired
+	private BookServiceImpl bookService;
+
+	@GetMapping("/")
+	public String home() {
+		return "home.html";
+	}
+	@GetMapping("/bookRegister")
+	public String book() {
+		return "bookRegister.html";
+	}
+	@GetMapping("/availabe_books")
+	public ModelAndView availabeBooks() {
+		List<Book> list = bookService.getAllBooks();
+		return new ModelAndView("","",list);
+	}
+	@GetMapping("/my_books")
+	public String myBooks() {
+		return "myBooks.html";
+	}
+	
+	@PostMapping("/save")
+	public String addBook(@ModelAttribute Book book) {
+		bookService.save(book);
+		return "redirect:/myBooks.html";
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.bookstore.Entity;
+
+import java.io.Serializable;
+
+public class MyBook implements Serializable {
+
+}

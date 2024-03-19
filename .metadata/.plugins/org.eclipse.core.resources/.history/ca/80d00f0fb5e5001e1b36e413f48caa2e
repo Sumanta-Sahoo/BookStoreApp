@@ -1,0 +1,33 @@
+package com.bookstore.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bookstore.Entity.MyBook;
+import com.bookstore.Repository.IMyBookRepositry;
+
+public class MyBookServiceImpl implements IMyBooksService {
+	
+	@Autowired
+	IMyBookRepositry myBookRepo;
+
+	@Override
+	public void saveMyBooks(MyBook myBook) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<MyBook> getAllMyBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteMyBookById(String myBookId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

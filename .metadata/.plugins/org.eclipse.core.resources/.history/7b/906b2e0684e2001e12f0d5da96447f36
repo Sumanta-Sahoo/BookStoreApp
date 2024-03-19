@@ -1,0 +1,25 @@
+package com.bookstore.Entity;
+
+import java.io.Serializable;
+
+import org.hibernate.annotations.DynamicUpdate;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@DynamicUpdate()
+@Getter
+@Setter
+@AllArgsConstructor
+public class MyBook implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private Integer myBookId;
+	private String myBookName;
+	private String myBookAuthor;
+	private String myBookGenre;
+	private Double myBookPrice;
+}

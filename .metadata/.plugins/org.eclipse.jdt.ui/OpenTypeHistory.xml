@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=bookstore/C:\/Users\/ASUS\/Downloads\/sts-4.19.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1682415358000"/>
+    <typeInfo handle="=bookstore/C:\/Users\/ASUS\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.2.3\/spring-data-jpa-3.2.3.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.2.3=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1708955617480"/>
+    <typeInfo handle="=bookstore/C:\/Users\/ASUS\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.4.4.Final\/hibernate-core-6.4.4.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.4.4.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="1048609" timestamp="1708955633062"/>
+    <typeInfo handle="=bookstore/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bookstore.Service{IBookService.java[IBookService" modifiers="513" timestamp="1710507799668"/>
+</typeInfoHistroy>

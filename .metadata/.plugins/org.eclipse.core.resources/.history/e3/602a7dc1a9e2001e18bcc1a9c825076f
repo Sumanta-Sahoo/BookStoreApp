@@ -1,0 +1,22 @@
+package com.bookstore.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class BookController {
+
+	@GetMapping("/")
+	public String home() {
+		return "home.html";
+	}
+	@GetMapping("/bookRegister")
+	public String book() {
+		return "bookRegister.html";
+	}
+	@GetMapping("/availabe_books")
+	public String availabeBooks() {
+		return "availabeBooks.html";
+	}
+	
+}

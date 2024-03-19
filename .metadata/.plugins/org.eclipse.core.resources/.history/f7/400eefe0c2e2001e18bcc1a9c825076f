@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Details Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; text-align: center;">
+
+  <div style="max-width: 400px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff;">
+
+    <h2 style="margin-bottom: 20px;">Book Details</h2>
+
+    <form>
+      <div style="margin-bottom: 15px;">
+        <label for="bookName" style="display: block; font-weight: bold;">Book Name:</label>
+        <input type="text" id="bookName" name="bookName" style="width: 100%; padding: 10px; font-size: 16px; border-radius: 3px; border: 1px solid #ccc;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="bookAuthor" style="display: block; font-weight: bold;">Book Author:</label>
+        <input type="text" id="bookAuthor" name="bookAuthor" style="width: 100%; padding: 10px; font-size: 16px; border-radius: 3px; border: 1px solid #ccc;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="bookGenre" style="display: block; font-weight: bold;">Book Genre:</label>
+        <input type="text" id="bookGenre" name="bookGenre" style="width: 100%; padding: 10px; font-size: 16px; border-radius: 3px; border: 1px solid #ccc;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="bookPrice" style="display: block; font-weight: bold;">Book Price:</label>
+        <input type="text" id="bookPrice" name="bookPrice" style="width: 100%; padding: 10px; font-size: 16px; border-radius: 3px; border: 1px solid #ccc;">
+      </div>
+
+      <button type="submit" style="display: block; width: 100%; padding: 10px; font-size: 16px; border: none; border-radius: 3px; background-color: #007bff; color: #fff; cursor: pointer;">
+        Submit
+      </button>
+    </form>
+
+  </div>
+
+</body>
+</html>

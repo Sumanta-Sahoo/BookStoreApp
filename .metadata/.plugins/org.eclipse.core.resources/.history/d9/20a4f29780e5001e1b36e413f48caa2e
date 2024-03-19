@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>BookStore</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+		<a class="navbar-brand text-white" href="#">BookStore</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="availabe_books">Availabe Books</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="my_books">MyBook</a>
+				</li>
+			</ul>
+			<div>
+				<button type="button" class="btn btn-primary"><a class="nav-link text-white"
+						href="bookRegister">Register New Book</a></button>
+			</div>
+
+		</div>
+	</nav>
+
+
+	<div class="container my-5">
+		<table class="table table-white table-hover">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Book Name</th>
+					<th scope="col">Author</th>
+					<th scope="col">Price</th>
+					<th scope="col">Genre</th>
+				</tr>
+			</thead>
+			<tbody class="table-group-divider">
+				<tr>
+					<th scope="row">1</th>
+					<td>To Kill a Mockingbird</td>
+					<td>Harper Lee</td>
+					<td>$12.99</td>
+					<td>Fiction, Classic</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>The Great Gatsby</td>
+					<td>F. Scott Fitzgerald</td>
+					<td>$11.99</td>
+					<td> Fiction, Classic</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>1984</td>
+					<td>George Orwell</td>
+					<td>$10.99</td>
+					<td>Fiction, Dystopian</td>
+				</tr>
+				<tr>
+					<th scope="row">4</th>
+					<td>Pride and Prejudice</td>
+					<td>Jane Austen</td>
+					<td> $9.99</td>
+					<td>Fiction, Romance</td>
+				</tr>
+				<tr>
+					<th scope="row">5</th>
+					<td>The Catcher in the Rye</td>
+					<td>J.D. Salinger</td>
+					<td>$11.49</td>
+					<td>Fiction, Coming-of-age</td>
+				</tr>
+				<tr>
+					<th scope="row">6</th>
+					<td>To the Lighthouse</td>
+					<td>Virginia Woolf</td>
+					<td> $13.99</td>
+					<td>Fiction, Modernist</td>
+				</tr>
+				<tr>
+					<th scope="row">7</th>
+					<td>The Hobbit</td>
+					<td>J.R.R. Tolkien</td>
+					<td>$14.99</td>
+					<td>Fantasy, Adventure</td>
+				</tr>
+				<tr>
+					<th scope="row">8</th>
+					<td>Moby-Rings</td>
+					<td>Herman Melville</td>
+					<td>$12.49</td>
+					<td>Fiction, Adventure</td>
+				</tr>
+				<tr>
+					<th scope="row">9</th>
+					<td>The Lord of the Rings</td>
+					<td>J.R.R. Tolkien</td>
+					<td>$19.99</td>
+					<td>Fantasy, Adventure</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
